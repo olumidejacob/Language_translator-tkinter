@@ -20,7 +20,7 @@ languages = {
         "Good luck":"Bonne nuit",
         "see you soon":"A bientot",
         "see you later":"A plus Tard",
-        "Father":"Frere",
+        "Father":"Fere",
         "Sorry":"desole(e)",
         "how are you":"Comment ca va",
         "Your welcome":"De rien"
