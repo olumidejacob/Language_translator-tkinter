@@ -1,1 +1,0 @@
-# Language_translator-tkinter
