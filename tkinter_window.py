@@ -28,3 +28,48 @@ languages = {
     },
 }
 
+def translate():
+    selected_language = language_var.get()
+    word = word_entry.get()
+
+    if selected_language in languages and word in languages[selected_language]:
+        translation = languages[selected_language][word]
+        messagebox.showinfo("Translation", f"{word} in {selected_language}: {translation}")
+    else:
+        messagebox.showerror("Error", "Word not found or language not supported.")
+
+# Create the main window
+window = Tk()
+window.title("Colorful Language Translator")
+window.geometry("400x300")  # Set window dimensions for spaciousness
+window.configure(bg="#f0f0f0")  # Set background color
+
+# Create a label for word input
+word_label = Label(window, text="Enter Word:", bg="#f0f0f0", font=("Arial", 12))
+word_label.pack(pady=10)
+
+# Create an entry box for word input
+word_entry = Entry(window, width=30, font=("Arial", 12))
+word_entry.pack()
+
+# Create a frame for language buttons
+language_buttons_frame = Frame(window, bg="#f0f0f0")
+language_buttons_frame.pack(pady=10)
+
+# Create a StringVar to hold the selected language
+language_var = StringVar(window) 
+
+# Create language buttons
+for language in languages.keys():
+    def create_language_button(lang):
+        def translate_to_lang():
+            language_var.set(lang) 
+            translate() 
+        return translate_to_lang
+
+    button = Button(language_buttons_frame, text=language, command=create_language_button(language),
+                    width=15, height=2, bg="#4CAF50", fg="white", font=("Arial", 12))
+    button.pack(side=LEFT, padx=10)
+
+# Run the main event loop
+window.mainloop()
