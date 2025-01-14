@@ -25,8 +25,29 @@ languages = {
         "how are you":"Comment ca va",
         "Your welcome":"De rien"
 
-    },
-}
+    }, "Spanish": {
+  "si":"yes",
+  "non":"no",
+  "mi corazon":"my heart",
+  "puta":"bitch",
+  "gringo":"witch",
+  "senior":"elder",
+  "tamales":"bread",
+  "mi gustas":"my freind",
+  "hola":"hello",
+  "amor":"love",
+  "tete":"head",
+  "familia":"family",
+  "casa":"house",
+  "gato":"cat",
+  "esculea":"school",
+  "agua":"water",
+  "felix":"happy",
+  "comida":"food",
+  "lento":"slow",
+  "cielo":"sky",
+} }
+
 
 def translate():
     selected_language = language_var.get()
