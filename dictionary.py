@@ -1,4 +1,4 @@
-"spanish_dictionary"={
+spanish_dictionary={
   "si":"yes",
   "non":"no",
   "mi corazon":"my heart",
