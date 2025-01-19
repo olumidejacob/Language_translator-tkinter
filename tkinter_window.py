@@ -25,7 +25,9 @@ languages = {
         "how are you":"Comment ca va",
         "Your welcome":"De rien"
 
-    }, "Spanish": {
+    },
+
+    "Spanish": {
   "si":"yes",
   "non":"no",
   "mi corazon":"my heart",
@@ -46,7 +48,28 @@ languages = {
   "comida":"food",
   "lento":"slow",
   "cielo":"sky",
-} }
+},
+    "german_words" : {
+"hello": "hallo",
+"goodbye": "auf wiedersehen",
+"thank_you": "danke",
+"yes": "ja",
+"no": "nein",
+"water": "wasser",
+"food": "essen",
+"house": "haus",
+"car": "auto",
+"tree": "baum",
+"dog": "hund",
+"cat": "katze",
+"sun": "sonne",
+"moon": "mond",
+"school": "schule",
+"book": "buch",
+"pen": "stift",
+"paper": "papier"
+},
+}
 
 
 def translate():
