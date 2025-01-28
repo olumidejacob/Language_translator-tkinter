@@ -49,6 +49,30 @@ languages = {
   "lento":"slow",
   "cielo":"sky",
 },
+
+  "arabic" : {
+    "peace" : "salam",
+    "love" : "hob",
+    "book" : "kitab",
+    "knowledge" : "ilm",
+    "friend" : "sadeeq",
+    "sun" : "shams",
+    "moon" : "qamar",
+    "homeland" : "watan",
+    "hope" : "amal",
+    "freedom" : "hurriya",
+    "dream" : "hulum",
+    "house" : "bayt",
+    "road" : "tariq",
+    "sea" : "bahr",
+    "flower" : "wardah",
+    "heat" : "qalb",
+    "language" : "lugha",
+    "world" : "aalam",
+    "soul" : "rouh",
+    "generousity" : "karam"
+},
+    
     "german_words" : {
 "hello": "hallo",
 "goodbye": "auf wiedersehen",
