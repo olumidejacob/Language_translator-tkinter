@@ -28,17 +28,17 @@ languages = {
     },
 
     "Spanish": {
-  "si":"yes",
-  "non":"no",
-  "mi corazon":"my heart",
-  "puta":"bitch",
-  "gringo":"witch",
-  "senior":"elder",
+  "yes":"si",
+  "no":"non",
+  "myu heart":"mi crayon",
+  "bitch":"puta",
+  "witch":"gringo",
+  "elder":"senior",
   "tamales":"bread",
   "mi gustas":"my freind",
-  "hola":"hello",
-  "amor":"love",
-  "tete":"head",
+  "hello":"halo",
+  "love":"amor",
+  "head":"tete",
   "familia":"family",
   "casa":"house",
   "gato":"cat",
@@ -69,8 +69,27 @@ languages = {
 "pen": "stift",
 "paper": "papier"
 },
+    "Yoruba_dict" : {
+"hello": "Bawo ni",
+"goodbye": "O dabọ",
+"thank you": "E se",
+"yes": "Bẹẹni",
+"no": "Rara",
+"water": "Omi",
+"food": "Ounje",
+"house": "Ile",
+"car": "Okọ",
+"tree": "Igi",
+"dog": "Aja",
+"cat": "Ologbo",
+"sun": "Oorun",
+"moon": "Osupa",
+"school": "Ile-ẹkọ",
+"book": "Iwe",
+"pen": "Biro",
+"paper": "Kaga"
 }
-
+}
 
 def translate():
     selected_language = language_var.get()
